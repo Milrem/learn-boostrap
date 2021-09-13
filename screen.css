@@ -1,0 +1,46 @@
+.container-fluid {
+    width: 100%;
+    height: 100%;
+}
+/* X-Small 	Nenhhum 	<576px */
+@media screen and (max-width:575px) {
+    body {
+        background-color: lightcoral;
+    }
+}
+/* Small 	sm 	≥576px */
+@media screen and (min-width:576px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+/* Medium 	md 	≥768px */
+@media screen and (min-width:768px) {
+    body {
+        background-color: lightpink;
+    }
+}
+/* Large 	lg 	≥992px */
+@media screen and (min-width:992px) {
+    body {
+        background-color: lightskyblue;
+    }
+}
+/* Extra large 	xl 	≥1200px */
+@media screen and (min-width:1200px) {
+    body {
+        background-color: lightyellow;
+    }
+}
+/* Extra extra large 	xxl 	≥1400px */
+@media screen and (min-width:1400px) {
+    body {
+        background-color: lightsteelblue;
+    }
+}
+/* Orientarion: landscape */
+@media screen and (orientation:landscape) {
+    body {
+        background-color: darkgoldenrod;
+    }
+}
